@@ -1,0 +1,31 @@
+{
+  "name": "bangular-api",
+  "version": "1.0.0",
+  "description": "REST web service for bangular",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mycetophorae/bangular-api.git"
+  },
+  "keywords": [
+    "bangular"
+  ],
+  "author": "Cal Milne <cal@calmilne.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mycetophorae/bangular-api/issues"
+  },
+  "homepage": "https://github.com/mycetophorae/bangular-api",
+  "dependencies": {
+    "bookshelf": "^0.7.9",
+    "colors": "^1.0.3",
+    "knex": "^0.7.3",
+    "mysql": "^2.5.3",
+    "q": "^1.1.2",
+    "restify": "^2.8.3",
+    "underscore": "^1.7.0"
+  }
+}

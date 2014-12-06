@@ -1,0 +1,19 @@
+{
+  "webService": {
+    "host"         : "localhost",
+    "port"         : "7133",
+    "protocol"     : "http",
+    "debug"        : true,
+    "cors"         : {
+      "origins"    : ["*"]
+    }
+  },
+  "mysql": {
+    "host"         : "127.0.0.1",
+    "port"         : 3306,
+    "user"         : "root",
+    "pass"         : "",
+    "dbName"       : "bangular",
+    "debug"        : false
+  }
+}

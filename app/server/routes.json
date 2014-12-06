@@ -1,0 +1,7 @@
+[
+  ["GET", "/todos", "todo", "getMultiple"],
+  ["POST", "/todos", "todo", "create"],
+  ["GET", "/todos/:ID", "todo", "getSingle"],
+  ["POST", "/todos/:ID", "todo", "patch"],
+  ["DELETE", "/todos/:ID", "todo", "delete"]
+]
