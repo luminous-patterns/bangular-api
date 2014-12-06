@@ -40,6 +40,9 @@ module.exports.getMultiple = function(req, res, next) {
   var todos = todoCollection.forge();
 
   var dbQuery = {
+    whereNull: [
+      'Deleted'
+    ],
     orderByRaw: 'Created ASC'
   };
 
